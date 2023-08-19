@@ -1,4 +1,3 @@
-
 h1 {
     flex-shrink: 0;
     font-size: 34px;
@@ -35,7 +34,7 @@ img {
     /*border-radius: 10px;*/
 }
 
-.main-content__ad-image{
+.main-content__ad-image {
     /*width: 50%;*/
     border-radius: 10px;
 }
@@ -43,16 +42,18 @@ img {
 p {
     margin: 0;
 }
-.icons{
+
+.icons {
     width: 21px;
     height: 21px;
 }
+
 .header-top {
     padding: 8px;
     background-color: #49516F;
 }
 
-.header-top__enter{
+.header-top__enter {
     display: flex;
 }
 
@@ -81,7 +82,7 @@ p {
     margin-top: 16px;
 }
 
-.header-bottom-bar{
+.header-bottom-bar {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -115,20 +116,19 @@ p {
 
 .main-content > .container {
     flex-wrap: wrap;
-    /*justify-content: space-between;*/
 }
 
-.main-content__ad div:nth-child(3n){
+.main-content__ad div:nth-child(3n) {
     margin-right: 0;
 }
 
-.main-content__ad{
+.main-content__ad {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
 }
 
-.main-content__ad-item{
+.main-content__ad-item {
     margin-bottom: 16px;
     width: calc(20% - 8px);
 }
