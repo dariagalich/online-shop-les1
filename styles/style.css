@@ -1,6 +1,7 @@
 
 h1 {
     flex-shrink: 0;
+    margin-right: 10px;
     font-size: 34px;
 }
 
@@ -16,6 +17,7 @@ button {
 }
 
 label {
+    margin-left: 10px;
     width: 100%;
 }
 
@@ -31,8 +33,7 @@ hr {
 }
 
 img {
-    width: 240px;
-    height: 180px;
+    width: 100%;
     border-radius: 10px;
 }
 
@@ -46,14 +47,12 @@ p {
 }
 
 .container {
-    display: flex;
-    align-items: center;
-    gap: 10px;
     width: 1400px;
 }
 
-.header-top > .container {
-    justify-content: flex-end;
+.header-top-end {
+    display: flex;
+    justify-content: end;
 }
 
 .button-line-white {
@@ -68,6 +67,12 @@ p {
 
 .header-bottom {
     margin-top: 16px;
+}
+
+.header-bottom-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .header-bottom__categories {
@@ -94,11 +99,22 @@ p {
 
 .main-content > .container {
     flex-wrap: wrap;
-    justify-content: space-between;
+    /*justify-content: space-between;*/
 }
 
-.main-content__ads{
+.main-content__ad div:nth-child(3n){
+    margin-right: 0;
+}
+
+.main-content__ad{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.main-content__ad-item{
     margin-bottom: 16px;
+    width: calc(20% - 8px);
 }
 
 .main-content__ad-description {
