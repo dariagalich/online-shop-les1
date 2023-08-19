@@ -1,7 +1,6 @@
 
 h1 {
     flex-shrink: 0;
-    margin-right: 10px;
     font-size: 34px;
 }
 
@@ -17,7 +16,6 @@ button {
 }
 
 label {
-    margin-left: 10px;
     width: 100%;
 }
 
@@ -34,16 +32,28 @@ hr {
 
 img {
     width: 100%;
+    /*border-radius: 10px;*/
+}
+
+.main-content__ad-image{
+    /*width: 50%;*/
     border-radius: 10px;
 }
 
 p {
     margin: 0;
 }
-
+.icons{
+    width: 21px;
+    height: 21px;
+}
 .header-top {
     padding: 8px;
     background-color: #49516F;
+}
+
+.header-top__enter{
+    display: flex;
 }
 
 .container {
@@ -61,6 +71,8 @@ p {
 }
 
 .button-blue {
+    display: flex;
+    align-items: center;
     color: white;
     background-color: #6697E6;
 }
@@ -73,6 +85,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 10px;
 }
 
 .header-bottom__categories {
@@ -80,6 +93,9 @@ p {
 }
 
 .button-line-blue {
+    display: flex;
+    align-items: center;
+    gap: 10px;
     padding: 4px 10px;
     color: #6697E6;
     background: none;

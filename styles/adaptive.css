@@ -9,8 +9,26 @@
     }
 }
 @media (max-width: 768px) {
+   .header-bottom-bar{
+       flex-wrap: wrap;
+   }
 
+    .header-bottom__search-bar{
+
+    }
+    .main-content__ad-item{
+        width: calc(50% - 7px);
+    }
 }
 @media (max-width: 576px) {
 
+    .container{
+        width: 432px;
+    }
+    .categories-text{
+        display: none;
+    }
+    .main-content__ad-item{
+        width: calc(100% - 7px);
+    }
 }
